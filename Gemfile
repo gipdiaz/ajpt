@@ -1,12 +1,23 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
 
+gem 'mysql'
+
+gem 'mysql2'
+
+gem 'devise'
+
+gem 'cancan'
+
+gem 'declarative_authorization'
+
+gem 'will_paginate'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -16,12 +27,26 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
-
+  gem 'twitter-bootstrap-rails'
   gem 'uglifier', '>= 1.0.3'
+  gem 'less-rails'
 end
 
-gem 'jquery-rails'
+gem "jquery-rails"
 
+gem "jquery-ui-themes"
+
+gem "nested_form"
+
+gem "rails3-jquery-autocomplete"
+
+gem 'jquery_datepicker'
+
+gem 'railties'
+
+gem 'execjs'
+
+gem 'therubyracer'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
@@ -35,4 +60,4 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'

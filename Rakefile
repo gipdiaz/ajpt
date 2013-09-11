@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ajpt::Application.load_tasks
+Mysecurity::Application.load_tasks
